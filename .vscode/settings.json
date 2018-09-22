@@ -2,6 +2,9 @@
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "files.associations": {
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "typeinfo": "cpp",
+        "typeindex": "cpp",
+        "ostream": "cpp"
     }
 }
