@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     char name[10] = "Will"; // This will get reasigned from the cin
     char initial = 'C';
-    int age = 43;
+    int age = 42;
     int height = 180;
     bool happy = true;
     float score = 8.9;
@@ -20,6 +20,7 @@ int main() {
     cout << "Score: " << score << endl;
 
     // basic maths
+    cout << "Height * Age: " << height * age << endl;
     cout << "Height + Age: " << height + age << endl;
     cout << "Height - Age: " << height - age << endl;
     cout << "Height / Age: " << height / age << endl;
@@ -30,6 +31,14 @@ int main() {
     cout << "Age - 1: " << -- age << endl; // decreases the age before its printed
     cout << "Age - 1: " << age -- << endl; // decreases the age after its printed
 
-    
+    // if comparitors == != >= <= && || etc
+    if( age == 43 ){
+        cout << "You are 43" << endl;
+    } else {
+        cout << "You are not 43" << endl;
+    }
+    // ternary operators
+    age == 43 ? cout << "You are 43" << endl : cout << "You are not 43" << endl;
+
     return 0;
 }
