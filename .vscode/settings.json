@@ -1,0 +1,7 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "files.associations": {
+        "cmath": "cpp"
+    }
+}

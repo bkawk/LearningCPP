@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "prog"
+            ],
+            "problemMatcher":"$gcc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "problemMatcher":[],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "run"
+            ],
+            "problemMatcher":[],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+
+        }
+    ]
+}
