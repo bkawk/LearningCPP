@@ -2,8 +2,15 @@
 
 using namespace std;
 
+// a function prototype, the actual function is below
+void sayHello();
+void whatNumber(int);
+inline void whatSize(int);
+void whatAges(int, int);
+
 int main() {
-    char name[10] = "Will"; // This will get reasigned from the cin
+    string surname = "Hill";
+    char name[10] = "Will"; 
     char initial = 'C';
     int age = 42;
     int height = 180;
@@ -15,6 +22,7 @@ int main() {
     cout << endl << endl;
     cout << "Name: " << name << endl;
     cout << "Initial: " << initial << endl; 
+    cout << "Surname: " << surname << endl; 
     cout << "Age: " << age << endl;
     cout << "Happy: " << happy << endl;
     cout << "Score: " << score << endl;
@@ -79,5 +87,30 @@ int main() {
     };
     cout << studentScores[0][2] << endl;
 
+    // call a function
+    sayHello();
+    whatNumber(6);
+    whatSize(11);
+    whatAges(1, 2);
+    
     return 0;
+}
+
+// a function
+void sayHello() {
+    cout << "Hello Boy!" << endl;
+};
+
+// a function with an int argument
+void whatNumber(int num) {
+    cout << num << endl;
+};
+
+// function with default values 
+void whatAges(int x = 10, int y = 10) {
+    cout << x + y << endl;
+}
+
+inline void whatSize(int x= 10){
+    cout << x << endl;
 }

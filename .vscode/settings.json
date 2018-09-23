@@ -5,6 +5,9 @@
         "cmath": "cpp",
         "typeinfo": "cpp",
         "typeindex": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "__functional_03": "cpp",
+        "functional": "cpp",
+        "string": "cpp"
     }
 }
