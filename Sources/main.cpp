@@ -92,6 +92,14 @@ int main() {
     whatNumber(6);
     whatSize(11);
     whatAges(1, 2);
+
+    // for loop with a break
+    for (int counter = 1; counter <= 10; counter++) {
+        cout << "You just got " << counter << " breaks" << endl;
+        if(counter == 5) {
+            break;
+        };
+    };
     
     return 0;
 }
@@ -111,6 +119,7 @@ void whatAges(int x = 10, int y = 10) {
     cout << x + y << endl;
 }
 
+// inline functions, 
 inline void whatSize(int x= 10){
     cout << x << endl;
 }
