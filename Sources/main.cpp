@@ -100,6 +100,14 @@ int main() {
             break;
         };
     };
+
+    // for loop with a continue
+    for (int counter = 1; counter <= 10; counter++) {
+        if(counter == 5) {
+            continue;
+        };
+        cout << "You just got " << counter << " breaks" << endl;
+    };
     
     return 0;
 }
