@@ -40,5 +40,18 @@ int main() {
     // ternary operators
     age == 43 ? cout << "You are 43" << endl : cout << "You are not 43" << endl;
 
+
+    // while loop
+    while (age >= 1) {
+        cout << "you are now age " << age << endl;
+        age --;
+    }
+
+    // do while will always run once and conditionally run many more times
+    do {
+        cout << "How old are you? " << endl;
+        cin >> age;
+    } while (age != 43);
+
     return 0;
 }
