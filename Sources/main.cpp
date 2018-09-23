@@ -103,11 +103,27 @@ int main() {
 
     // for loop with a continue
     for (int counter = 1; counter <= 10; counter++) {
-        if(counter == 5) {
+        if (counter == 5) {
             continue;
         };
         cout << "You just got " << counter << " breaks" << endl;
     };
+
+    // Switch with default
+    char input = 'A';
+    switch(input){
+        case 'A' : {
+            cout << 'A' << endl;
+            break;
+        }
+        case 'B' : {
+            cout << 'B' << endl;
+            break;
+        }
+        default : {
+            cout << 'C' << endl;
+        }
+    }
     
     return 0;
 }
